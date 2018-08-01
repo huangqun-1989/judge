@@ -22,5 +22,6 @@ package com.hq.judge;
 public class Bootstrap {
     public static void main(String[] args) {
         System.out.println("just begin coding");
+
     }
 }
