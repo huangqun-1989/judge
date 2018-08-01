@@ -11,10 +11,18 @@ import java.lang.annotation.Target;
 @Target(ElementType.METHOD)
 public @interface TccMethod {
 
-    // TODO 反向查询需要选择一个好的名字
-    String judge() default "";
+    /**
+     * 反查器
+     */
+    String reverseLookup() default "";
 
+    /**
+     * 提交方法
+     */
     String comfirm() default "";
 
+    /**
+     * 回滚方法
+     */
     String cancel() default "";
 }

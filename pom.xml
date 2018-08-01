@@ -13,6 +13,7 @@
         <module>judge-core</module>
         <module>judge-bootstrap</module>
         <module>judge-annotation</module>
+        <module>judge-store</module>
     </modules>
 
 
