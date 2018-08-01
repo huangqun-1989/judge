@@ -12,6 +12,7 @@
         <module>judge-common</module>
         <module>judge-core</module>
         <module>judge-bootstrap</module>
+        <module>judge-annotation</module>
     </modules>
 
 
