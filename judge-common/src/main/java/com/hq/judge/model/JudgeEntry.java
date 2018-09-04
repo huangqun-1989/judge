@@ -20,14 +20,14 @@ public class JudgeEntry {
     private String judgeId;
 
     /**
-     * 每个应用是独立的一个域，命名一个appId
+     * 每个应用是独立的一个域，命名一个app
      */
-    private String appId;
+    private String app;
 
     /**
-     * AppId域下的流程Id
+     * App域下的流程
      */
-    private String processId;
+    private String process;
 
     /**
      * 事务状态
